@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="alert_dialog_button_bar_height">48.0dip</dimen>
+    <dimen name="level_progress_bar_default_height">68.0dip</dimen>
+    <dimen name="scoreboard_padding">8.0dip</dimen>
+    <dimen name="scoreboard_text_size_large">32.0dip</dimen>
+    <dimen name="scoreboard_text_size_small">12.0dip</dimen>
+    <dimen name="text_size_medium">20.0sp</dimen>
+    <dimen name="up_next_height">80.0dip</dimen>
+    <!--Actionbar  -->
+    <dimen name="actionbar_height">45dip</dimen>
+    <dimen name="actionbar_item_height">45dip</dimen>
+    <dimen name="actionbar_item_width">45dip</dimen>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application theme. -->
+    <style name="AppTheme.Light" parent="android:Theme.Light.NoTitleBar">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="sdlDialogStyle">@style/DialogStyleLight.Custom</item>
+        <item name="boardViewStyle">@style/Widget.BoardView</item>
+        <item name="blockViewStyle">@style/Widget.BlockView</item>
+        <item name="gridColor">@color/board_grid_color_light</item>
+        <item name="empty_normal_disable">@color/empty_normal_disable_light</item>
+        <item name="emptyBlockDrawable">@drawable/btn_empty</item>
+        <item name="redBlockDrawable">@drawable/btn_red</item>
+        <item name="blueBlockDrawable">@drawable/btn_blue</item>
+        <item name="greenBlockDrawable">@drawable/btn_green</item>
+        <item name="yellowBlockDrawable">@drawable/btn_yellow</item>
+        <item name="purpleBlockDrawable">@drawable/btn_purple</item>
+        <item name="redBlockColor">@color/red_normal</item>
+        <item name="blueBlockColor">@color/blue_normal</item>
+        <item name="greenBlockColor">@color/green_normal</item>
+        <item name="yellowBlockColor">@color/yellow_normal</item>
+        <item name="purpleBlockColor">@color/purple_normal</item>
+        <item name="color_red">@color/red</item>
+        <item name="color_blue">@color/blue</item>
+        <item name="color_green">@color/green</item>
+        <item name="color_yellow">@color/yellow</item>
+        <item name="color_purple">@color/purple</item>
+    </style>
+
+    <style name="AppTheme.Black" parent="android:Theme.Black.NoTitleBar">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="sdlDialogStyle">@style/DialogStyleDark.Custom</item>
+        <item name="boardViewStyle">@style/Widget.BoardView</item>
+        <item name="blockViewStyle">@style/Widget.BlockView</item>
+        <item name="gridColor">@color/board_grid_color_dark</item>
+        <item name="empty_normal_disable">@color/empty_normal_disable_dark</item>
+        <item name="emptyBlockDrawable">@drawable/btn_empty</item>
+        <item name="redBlockDrawable">@drawable/btn_red</item>
+        <item name="blueBlockDrawable">@drawable/btn_blue</item>
+        <item name="greenBlockDrawable">@drawable/btn_green</item>
+        <item name="yellowBlockDrawable">@drawable/btn_yellow</item>
+        <item name="purpleBlockDrawable">@drawable/btn_purple</item>
+        <item name="redBlockColor">@color/red_normal</item>
+        <item name="blueBlockColor">@color/blue_normal</item>
+        <item name="greenBlockColor">@color/green_normal</item>
+        <item name="yellowBlockColor">@color/yellow_normal</item>
+        <item name="purpleBlockColor">@color/purple_normal</item>
+        <item name="color_red">@color/red</item>
+        <item name="color_blue">@color/blue</item>
+        <item name="color_green">@color/green</item>
+        <item name="color_yellow">@color/yellow</item>
+        <item name="color_purple">@color/purple</item>
+    </style>
+
+    <style name="AppTheme.Light.Colorblind" parent="android:Theme.Light.NoTitleBar">
+        <item name="redBlockDrawable">@drawable/btn_red_cb</item>
+        <item name="blueBlockDrawable">@drawable/btn_blue_cb</item>
+        <item name="greenBlockDrawable">@drawable/btn_green_cb</item>
+        <item name="yellowBlockDrawable">@drawable/btn_yellow_cb</item>
+        <item name="purpleBlockDrawable">@drawable/btn_purple_cb</item>
+        <item name="redBlockColor">@color/red_cb_normal</item>
+        <item name="blueBlockColor">@color/blue_cb_normal</item>
+        <item name="greenBlockColor">@color/green_cb_normal</item>
+        <item name="yellowBlockColor">@color/yellow_cb_normal</item>
+        <item name="purpleBlockColor">@color/purple_cb_normal</item>
+        <item name="color_red">@color/red_cb</item>
+        <item name="color_blue">@color/blue_cb</item>
+        <item name="color_green">@color/green_cb</item>
+        <item name="color_yellow">@color/yellow_cb</item>
+        <item name="color_purple">@color/purple_cb</item>
+    </style>
+
+</resources>

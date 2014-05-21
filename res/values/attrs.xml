@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="color" format="reference|color" />
+    <attr name="homeAsUpIndicator" format="reference" />
+    <attr name="boardViewStyle" format="reference" />
+    <attr name="blockViewStyle" format="reference" />
+    <attr name="gridColor" format="reference|color" />
+    <attr name="empty_normal_disable" format="reference|color" />
+    <attr name="emptyBlockDrawable" format="reference" />
+    <attr name="redBlockDrawable" format="reference" />
+    <attr name="blueBlockDrawable" format="reference" />
+    <attr name="greenBlockDrawable" format="reference" />
+    <attr name="yellowBlockDrawable" format="reference" />
+    <attr name="purpleBlockDrawable" format="reference" />
+    <attr name="emptyBlockColor" format="reference|color" />
+    <attr name="redBlockColor" format="reference|color" />
+    <attr name="blueBlockColor" format="reference|color" />
+    <attr name="greenBlockColor" format="reference|color" />
+    <attr name="yellowBlockColor" format="reference|color" />
+    <attr name="purpleBlockColor" format="reference|color" />
+    <attr name="color_red" format="reference|color" />
+    <attr name="color_blue" format="reference|color" />
+    <attr name="color_green" format="reference|color" />
+    <attr name="color_yellow" format="reference|color" />
+    <attr name="color_purple" format="reference|color" />
+    <attr name="disabledColor" format="reference|color" />
+    <attr name="icon" format="reference" />
+    <attr name="iconColor" format="reference|color" />
+    <attr name="mapType">
+        <enum name="none" value="0" />
+        <enum name="normal" value="1" />
+        <enum name="satellite" value="2" />
+        <enum name="terrain" value="3" />
+        <enum name="hybrid" value="4" />
+    </attr>
+    <attr name="cameraBearing" format="float" />
+    <attr name="cameraTargetLat" format="float" />
+    <attr name="cameraTargetLng" format="float" />
+    <attr name="cameraTilt" format="float" />
+    <attr name="cameraZoom" format="float" />
+    <attr name="uiCompass" format="boolean" />
+    <attr name="uiRotateGestures" format="boolean" />
+    <attr name="uiScrollGestures" format="boolean" />
+    <attr name="uiTiltGestures" format="boolean" />
+    <attr name="uiZoomControls" format="boolean" />
+    <attr name="uiZoomGestures" format="boolean" />
+    <attr name="useViewLifecycle" format="boolean" />
+    <attr name="zOrderOnTop" format="boolean" />
+     <declare-styleable name="ActionBar">
+        <attr name="title" format="string" localization="suggested" />
+    </declare-styleable>
+</resources>

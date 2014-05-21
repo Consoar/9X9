@@ -1,0 +1,94 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+   <style name="TextAppearance" />
+    <style name="TextAppearance.Body" parent="@style/TextAppearance">
+        <item name="android:textSize">18.0sp</item>
+    </style>
+    <style name="TextAppearance.Game" parent="@style/TextAppearance" />
+
+    <style name="TextAppearance.Game.H1" parent="@style/TextAppearance.Game">
+        <item name="android:textSize">@dimen/scoreboard_text_size_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="TextAppearance.Game.Value" parent="@style/TextAppearance.Game">
+        <item name="android:textSize">@dimen/scoreboard_text_size_large</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_marginTop">-10.0dip</item>
+    </style>
+
+    <style name="TextAppearance.H1" parent="@style/TextAppearance">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:layout_marginTop">16.0dip</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Widget" />
+
+    <style name="Widget.BlockView" parent="@style/Widget">
+        <item name="disabledColor">?empty_normal_disable</item>
+    </style>
+
+    <style name="Widget.BoardView" parent="@style/Widget">
+        <item name="gridColor">?gridColor</item>
+    </style>
+
+    <style name="ActionBar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/actionbar_height</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/actionbar_background</item>
+    </style>
+
+    <style name="ActionBarItem">
+        <item name="android:layout_width">@dimen/actionbar_item_width</item>
+        <item name="android:layout_height">@dimen/actionbar_height</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginLeft">1px</item>
+    </style>
+
+    <style name="ActionBarHomeItem" parent="ActionBarItem">
+        <item name="android:layout_marginRight">1px</item>
+        <item name="android:layout_marginLeft">0px</item>
+    </style>
+
+    <style name="ActionBarHomeLogo">
+        <item name="android:layout_marginRight">1px</item>
+        <item name="android:layout_marginLeft">0px</item>
+    </style>
+
+    <style name="ActionBarProgressBar" parent="@android:style/Widget.ProgressBar.Small"></style>
+
+    <style name="MyActionBar.Light" parent="@style/ActionBar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/actionbar_height</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/ab_bg</item>
+    </style>
+    
+<style name="DialogStyleLight.Custom">
+		<!-- anything can be left out: -->
+		<item name="titleTextColor">@color/dialog_title_text</item>
+		<item name="titleSeparatorColor">@color/dialog_title_separator</item>
+		<item name="messageTextColor">@color/dialog_message_text</item>
+		<item name="buttonTextColor">@color/dialog_button_text</item>
+		<item name="buttonSeparatorColor">@color/dialog_button_separator</item>
+		<item name="buttonBackgroundColorNormal">@color/dialog_button_normal</item>
+		<item name="buttonBackgroundColorPressed">@color/dialog_button_pressed</item>
+		<item name="buttonBackgroundColorFocused">@color/dialog_button_focused</item>
+	</style>
+
+	<style name="DialogStyleDark.Custom">
+		<!-- anything can be left out: -->
+		<item name="titleTextColor">@color/dialog_title_text_dark</item>
+		<item name="titleSeparatorColor">@color/dialog_title_separator_dark</item>
+		<item name="messageTextColor">@color/dialog_message_text_dark</item>
+		<item name="buttonTextColor">@color/dialog_button_text_dark</item>
+		<item name="buttonSeparatorColor">@color/dialog_button_separator_dark</item>
+		<item name="buttonBackgroundColorNormal">@color/dialog_button_normal_dark</item>
+		<item name="buttonBackgroundColorPressed">@color/dialog_button_pressed_dark</item>
+		<item name="buttonBackgroundColorFocused">@color/dialog_button_focused_dark</item>
+	</style>
+</resources>

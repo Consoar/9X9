@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- APP SETTING -->
+
+    <string name="app_name">9x9</string>
+    <string name="EXIT">退出</string>
+    <string name="NEW_GAME">开始新游戏</string>
+    <string name="DEAD_MESSAGE">最高分%1$d \n您的得分为%2$d </string>
+    <string name="GAMEOVER">完了…… </string>
+    <string name="undo">撤销</string>
+    <string name="move_anywhere">任意移动</string>
+    <string name="delete">消除</string>
+    <string name="up_next">下一次出现</string>
+    <string name="score">得分</string>
+    <string name="combo">连击</string>
+    <string name="next_level">还有 %1$d 行到下一等级</string>
+    <string name="now_level">等级 %1$d</string>
+    <string name="turns">回合</string>
+    <string name="high">高分</string>
+    <string name="max_combo">最大连击</string>
+    <string name="actionbar_activity_not_found">Failed to open intent...</string>
+    <!-- HELP -->
+    <string name="tutorial">游戏教程</string>
+    <string name="intro_text">游戏的最终目标是通过清除方块(过程中可以触发组合)来取得高分.</string>
+    <string name="tutorial_text">"拖曳相同颜色的方块,让它们排成一行即可消除,移动方格只能横向移动和纵向移动，每移动一格，格中数字减一，直至0为止不可在移动，相同颜色的方块数量可以是4块或以上.纵向,横向或对角排成一排皆可.
+
+每次完成移动方块,都会加入新的方块.."</string>
+    <string name="tutorial_title">游戏教程</string>
+    <string name="undo_title">撤销</string>
+    <string name="undo_text">操作失误时，可以用撤消来弥补.每次成功过关都会奖励撤消次数.</string>
+    <string name="move_anywhere_text">任意移动 允许将方块移动到任意空白的地方.在每个回合里,当有2行或以上数量的方块被清除,玩家会得到增加 任意移动 的次数奖励.</string>
+    <string name="move_anywhere_tip_message">使用右上顶部的 任意移动 按钮来把方块移动到一个任意的空白位置上</string>
+    <string name="move_anywhere_title">任意移动</string>
+    <string name="delete_title">消除</string>
+    <string name="delete_text">可消除任意方块，当连击次数达到4次时，奖励消除次数</string>
+
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <bos.consoar.ninebynine.views.ActionBar
+        android:id="@+id/actionbar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/actionbar_height"
+        android:background="@drawable/ab_bg" />
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/next_level_lines_label"
+            style="@style/TextAppearance.Game.H1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/scoreboard_padding"
+            android:paddingRight="@dimen/scoreboard_padding"
+            android:paddingTop="45dip" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="@dimen/scoreboard_padding"
+            android:paddingRight="@dimen/scoreboard_padding"
+            android:paddingTop="60dip" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:gravity="left"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/score_label"
+                    style="@style/TextAppearance.Game.H1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/score" />
+
+                <TextView
+                    android:id="@+id/score"
+                    style="@style/TextAppearance.Game.Value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="123" />
+
+                <TextView
+                    android:id="@+id/combo_label"
+                    style="@style/TextAppearance.Game.H1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/combo" />
+
+                <TextView
+                    android:id="@+id/combo"
+                    style="@style/TextAppearance.Game.Value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="5X" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/TextAppearance.Game.H1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="@string/up_next" />
+
+                <bos.consoar.ninebynine.views.UpNextView
+                    android:id="@+id/up_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/up_next_height" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <bos.consoar.ninebynine.views.BackGroundBoardView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <bos.consoar.ninebynine.views.BoardView
+            android:id="@+id/main_BoardView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <bos.consoar.ninebynine.views.BoardView
+            android:id="@+id/undo_board"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:clickable="false"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

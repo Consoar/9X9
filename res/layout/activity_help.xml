@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <bos.consoar.ninebynine.views.ActionBar
+        android:id="@+id/actionbar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/actionbar_height"
+        android:background="@drawable/ab_bg" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="16.0dip"
+            android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip" >
+
+            <TextView
+                style="@style/TextAppearance.H1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name" />
+
+            <TextView
+                style="@style/TextAppearance.Body"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/intro_text" />
+
+            <TextView
+                style="@style/TextAppearance.H1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorial_title" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8.0dip" >
+
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:src="@drawable/tutorial_vertical" />
+
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:src="@drawable/tutorial_horizontal" />
+
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:src="@drawable/tutorial_diagonal" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/TextAppearance.Body"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorial_text" />
+
+            <TextView
+                style="@style/TextAppearance.H1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/move_anywhere_title" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8.0dip"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/move_anywhere_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tutorial_move_anywhere" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/TextAppearance.Body"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/move_anywhere_text" />
+
+            <TextView
+                style="@style/TextAppearance.H1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/undo_title" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8.0dip"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/undo_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tutorial_undo" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/TextAppearance.Body"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/undo_text" />
+
+            <TextView
+                style="@style/TextAppearance.H1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/delete_title" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8.0dip"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/delete_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tutorial_delete" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/TextAppearance.Body"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/delete_text" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

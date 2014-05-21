@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dedfce" >
+
+    <ImageView
+        android:id="@+id/main_help"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/main_help" />
+
+    <RelativeLayout
+        android:id="@+id/main_banner_RelativeLayout"
+        android:layout_width="200dp"
+        android:layout_height="fill_parent"
+        android:background="@drawable/main_banner_land" >
+
+        <ImageView
+            android:id="@+id/main_banner_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="66dp"
+            android:src="@drawable/main_banner_icon" />
+
+        <ImageView
+            android:id="@+id/main_banner_9x9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="55dp"
+            android:src="@drawable/main_banner_9x9" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/main_start_RelativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/main_banner_RelativeLayout" >
+
+        <ImageView
+            android:id="@+id/main_start"
+            android:layout_width="140dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/main_start_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/main_start" />
+
+        <ImageView
+            android:id="@+id/main_start_icon"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/start_bg" />
+    </RelativeLayout>
+
+</RelativeLayout>
